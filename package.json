@@ -1,0 +1,19 @@
+{
+  "name": "infinity-vue-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A local multi-agent workflow for generating Vue websites through OpenAI-compatible LLM APIs.",
+  "bin": {
+    "infinity-vue-agent": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "skills": "node cli.js skills",
+    "demo": "node cli.js generate --offline --name demo-vue-site --brief-file examples/briefs/landing.zh.md",
+    "check": "node cli.js check"
+  },
+  "engines": {
+    "node": ">=18.18"
+  }
+}

@@ -104,3 +104,4 @@ node cli.js skills
 
 Agent 会在每次生成时把这些技能作为上下文注入给大模型。
 # InfinityAgent
+# InfinityAgent
